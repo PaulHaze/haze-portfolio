@@ -12,6 +12,8 @@ export default defineConfig({
 			applyBaseStyles: false,
 		}),
 		react(),
-		icon(),
+		icon({
+			iconDir: 'src/assets/icons',
+		}),
 	],
 });
